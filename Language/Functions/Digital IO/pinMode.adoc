@@ -19,7 +19,7 @@ subCategories: [ "Digital I/O" ]
 === Descrição
 Configura o pino especificado para funcionar como uma entrada ou saída. Veja a descrição dos http://arduino.cc/en/Tutorial/DigitalPins[pinos digitais (em Inglês)] para mais detalhes sobre a funcionalidade dos pinos.
 [%hardbreaks]
-Desde a versão 1.0.1, é possível ativar os resistores internos de pull-up como o modo INPUT_PULLUP. Adicionalmente, o modo INPUT explicitamente desativa os resistores pull-up internos.
+Desde a versão 1.0.1, é possível ativar os resistores internos de pull-up com o modo INPUT_PULLUP. Adicionalmente, o modo INPUT explicitamente desativa os resistores pull-up internos.
 [%hardbreaks]
 
 
@@ -29,7 +29,7 @@ Desde a versão 1.0.1, é possível ativar os resistores internos de pull-up com
 
 [float]
 === Parâmetros
-`pino`: the número do pino do Arduino no qual se quer configurar o modo
+`pino`: o número do pino do Arduino no qual se quer configurar o modo
 
 `modo`: o modo do pino. Este pode ser `INPUT`, `OUTPUT` ou `INPUT_PULLUP`; que correspondem respectivamente a entrada, saída e entrada com pull-up ativado.
 
@@ -51,7 +51,7 @@ Nada
 
 [float]
 === Código de Exemplo
-The código configura o pino digital 13 como `OUTPUT` e troca seu estado entre `HIGH` e `LOW`
+Este código configura o pino digital 13 como `OUTPUT` e troca seu estado entre `HIGH` e `LOW`
 
 [source,arduino]
 ----
